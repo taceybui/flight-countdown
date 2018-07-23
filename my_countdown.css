@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body { 
+	background: url(count.png); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: #B9E9FF;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: #0099FF;
+  margin-top: 430px;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 700px;
+  height: 700px;
+}
+
+#timer {
+	font-size: 10px;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	color: #0099FF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+
+.days .numbers {
+  color: #ffffff;
+  font-size: 2.5em;
+}
+
+.hours, .minutes, .seconds, .numbers {
+  color: #0099FF;
+  font-size: 2.5em;
+}
+
+.days, .hours, .minutes, .seconds {
+  display: inline-block;
+  padding: 20px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.days {
+  background: #FF9F8E;
+  color: #ffffff;
+}
+
+.hours, .minutes, .seconds {
+	background: #ffffff;
+}
