@@ -1,1 +1,1 @@
-# https://taceybui.github.io/flight-countdown/
+# https://taceybui.github.io/flightcountdown/
