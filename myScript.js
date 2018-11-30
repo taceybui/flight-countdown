@@ -1,4 +1,4 @@
-const year = new Date().getFullYear();
+const year = (new Date().getFullYear()) + 1;
 const tripday = new Date(year, 9, 21).getTime();
 
 // countdown
